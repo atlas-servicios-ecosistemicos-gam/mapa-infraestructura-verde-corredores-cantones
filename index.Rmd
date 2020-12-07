@@ -1,5 +1,5 @@
 ---
-title: "Mapa de infraestructura verde en corredores y cantones"
+title: "Mapa de infraestructura verde de los corredores biológicos interurbanos María Aguilar y Río Torres y de los cantones Curridabat, La Unión, Montes de Oca y San José"
 output: 
   flexdashboard::flex_dashboard:
     orientation: rows
@@ -80,7 +80,7 @@ pal <- colorFactor(
 Row
 -----------------------------------------------------------------------
 
-### Datos para descarga: [Capa de infraestructura verde en corredores y cantones](https://raw.githubusercontent.com/atlas-servicios-ecosistemicos-gam/datos/master/infraestructura-verde/corredores-cantones/IV_CORREDORES_CANTONES.TIF)
+### Datos para descarga: [Capa geoespacial de infraestructura verde de los corredores biológicos interurbanos María Aguilar y Río Torres y de los cantones Curridabat, La Unión, Montes de Oca y San José](https://raw.githubusercontent.com/atlas-servicios-ecosistemicos-gam/datos/master/infraestructura-verde/corredores-cantones/IV_CORREDORES_CANTONES.TIF)
 ```{r}
 
 leaflet() %>%
